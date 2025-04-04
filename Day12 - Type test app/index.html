@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Typing Speed Test</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="stats">
+            <p>Time: <span id="timer">60s</span></p>
+            <p>Mistakes: <span id="mistakes">0</span></p>
+        </div>
+
+        <div id="quote"></div>
+
+        <textarea id="quote-input" rows="3" placeholder="Type here..."></textarea>
+
+        <button id="start-test">Start Test</button>
+        <button id="stop-test">Stop Test</button>
+        <button id="reset-test" style="display: none;">Reset</button>
+
+        <div class="result">
+            <h3>Results</h3>
+            <div class="wrapper">
+                <p>Accuracy: <span id="accuracy">0%</span></p>
+                <p>Speed: <span id="wpm">0 WPM</span></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
